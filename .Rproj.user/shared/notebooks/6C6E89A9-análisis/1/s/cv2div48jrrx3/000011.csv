@@ -1,0 +1,27 @@
+"0","Envif2 %>% "
+"0","group_by(dinero_gastosP) %>% "
+"0","  frq(negación_dinero)"
+"1","[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36m no[39m
+[34m# total N=705 valid N=563 mean=2.51 sd=0.86[39m
+
+Value                          |   N | Raw % | Valid % | Cum. %
+---------------------------------------------------------------
+No aplica                      | 125 | 17.73 |   22.20 |  22.20
+algunas veces/reiteradas veces |  39 |  5.53 |    6.93 |  29.13
+Nunca                          | 388 | 55.04 |   68.92 |  98.05
+solo una vez                   |  11 |  1.56 |    1.95 | 100.00
+<NA>                           | 142 | 20.14 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36msi[39m
+[34m# total N=7004 valid N=6207 mean=2.55 sd=0.84[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      | 1330 | 18.99 |   21.43 |  21.43
+algunas veces/reiteradas veces |  193 |  2.76 |    3.11 |  24.54
+Nunca                          | 4600 | 65.68 |   74.11 |  98.65
+solo una vez                   |   84 |  1.20 |    1.35 | 100.00
+<NA>                           |  797 | 11.38 |    <NA> |   <NA>
+"

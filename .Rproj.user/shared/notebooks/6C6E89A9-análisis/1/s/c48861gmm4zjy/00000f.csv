@@ -1,0 +1,39 @@
+"0","Envif2 %>% "
+"0","  group_by(nivel_educacional) %>% "
+"0","  frq(negación_dinero)"
+"1","[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mNivel completo[39m
+[34m# total N=5034 valid N=4531 mean=2.60 sd=0.81[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |  870 | 17.28 |   19.20 |  19.20
+algunas veces/reiteradas veces |  135 |  2.68 |    2.98 |  22.18
+Nunca                          | 3464 | 68.81 |   76.45 |  98.63
+solo una vez                   |   62 |  1.23 |    1.37 | 100.00
+<NA>                           |  503 |  9.99 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mNivel no completo[39m
+[34m# total N=2590 valid N=2172 mean=2.46 sd=0.89[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |  558 | 21.54 |   25.69 |  25.69
+algunas veces/reiteradas veces |   93 |  3.59 |    4.28 |  29.97
+Nunca                          | 1488 | 57.45 |   68.51 |  98.48
+solo una vez                   |   33 |  1.27 |    1.52 | 100.00
+<NA>                           |  418 | 16.14 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36msin estudios[39m
+[34m# total N=99 valid N=78 mean=2.26 sd=0.99[39m
+
+Value                          |  N | Raw % | Valid % | Cum. %
+--------------------------------------------------------------
+No aplica                      | 28 | 28.28 |   35.90 |  35.90
+algunas veces/reiteradas veces |  4 |  4.04 |    5.13 |  41.03
+Nunca                          | 44 | 44.44 |   56.41 |  97.44
+solo una vez                   |  2 |  2.02 |    2.56 | 100.00
+<NA>                           | 21 | 21.21 |    <NA> |   <NA>
+"

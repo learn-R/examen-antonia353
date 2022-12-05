@@ -1,0 +1,86 @@
+"0","Envif2 %>% "
+"0","  group_by(estado_civil) %>% "
+"0","  frq(negación_dinero)"
+"1","[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36manulado[39m
+[34m# total N=17 valid N=13 mean=1.38 sd=0.65[39m
+
+Value        | N | Raw % | Valid % | Cum. %
+-------------------------------------------
+No aplica    | 9 | 52.94 |   69.23 |  69.23
+Nunca        | 3 | 17.65 |   23.08 |  92.31
+solo una vez | 1 |  5.88 |    7.69 | 100.00
+<NA>         | 4 | 23.53 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mCasada[39m
+[34m# total N=2822 valid N=2725 mean=2.93 sd=0.37[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |   69 |  2.45 |    2.53 |   2.53
+algunas veces/reiteradas veces |   76 |  2.69 |    2.79 |   5.32
+Nunca                          | 2546 | 90.22 |   93.43 |  98.75
+solo una vez                   |   34 |  1.20 |    1.25 | 100.00
+<NA>                           |   97 |  3.44 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mdivorciada[39m
+[34m# total N=411 valid N=359 mean=2.26 sd=0.97[39m
+
+Value                          |   N | Raw % | Valid % | Cum. %
+---------------------------------------------------------------
+No aplica                      | 126 | 30.66 |   35.10 |  35.10
+algunas veces/reiteradas veces |  22 |  5.35 |    6.13 |  41.23
+Nunca                          | 203 | 49.39 |   56.55 |  97.77
+solo una vez                   |   8 |  1.95 |    2.23 | 100.00
+<NA>                           |  52 | 12.65 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mseparada[39m
+[34m# total N=437 valid N=367 mean=2.19 sd=0.96[39m
+
+Value                          |   N | Raw % | Valid % | Cum. %
+---------------------------------------------------------------
+No aplica                      | 137 | 31.35 |   37.33 |  37.33
+algunas veces/reiteradas veces |  28 |  6.41 |    7.63 |  44.96
+Nunca                          | 199 | 45.54 |   54.22 |  99.18
+solo una vez                   |   3 |  0.69 |    0.82 | 100.00
+<NA>                           |  70 | 16.02 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36msoltera[39m
+[34m# total N=3326 valid N=2829 mean=2.38 sd=0.94[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |  859 | 25.83 |   30.36 |  30.36
+algunas veces/reiteradas veces |   85 |  2.56 |    3.00 |  33.37
+Nunca                          | 1840 | 55.32 |   65.04 |  98.41
+solo una vez                   |   45 |  1.35 |    1.59 | 100.00
+<NA>                           |  497 | 14.94 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mUnión Civil[39m
+[34m# total N=32 valid N=31 mean=2.81 sd=0.60[39m
+
+Value                          |  N | Raw % | Valid % | Cum. %
+--------------------------------------------------------------
+No aplica                      |  2 |  6.25 |    6.45 |   6.45
+algunas veces/reiteradas veces |  3 |  9.38 |    9.68 |  16.13
+Nunca                          | 25 | 78.12 |   80.65 |  96.77
+solo una vez                   |  1 |  3.12 |    3.23 | 100.00
+<NA>                           |  1 |  3.12 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mviuda[39m
+[34m# total N=685 valid N=464 mean=1.87 sd=0.99[39m
+
+Value                          |   N | Raw % | Valid % | Cum. %
+---------------------------------------------------------------
+No aplica                      | 255 | 37.23 |   54.96 |  54.96
+algunas veces/reiteradas veces |  18 |  2.63 |    3.88 |  58.84
+Nunca                          | 186 | 27.15 |   40.09 |  98.92
+solo una vez                   |   5 |  0.73 |    1.08 | 100.00
+<NA>                           | 221 | 32.26 |    <NA> |   <NA>
+"

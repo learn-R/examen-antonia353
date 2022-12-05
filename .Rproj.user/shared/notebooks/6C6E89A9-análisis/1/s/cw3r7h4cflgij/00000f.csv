@@ -1,0 +1,27 @@
+"0","Envif2 %>% "
+"0","  group_by(sostenedorH) %>% "
+"0","  frq(negación_dinero)"
+"1","[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mEs la sostenedora[39m
+[34m# total N=2959 valid N=2429 mean=2.25 sd=0.97[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |  875 | 29.57 |   36.02 |  36.02
+algunas veces/reiteradas veces |  117 |  3.95 |    4.82 |  40.84
+Nunca                          | 1402 | 47.38 |   57.72 |  98.56
+solo una vez                   |   35 |  1.18 |    1.44 | 100.00
+<NA>                           |  530 | 17.91 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mOtro[39m
+[34m# total N=4776 valid N=4363 mean=2.72 sd=0.70[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |  582 | 12.19 |   13.34 |  13.34
+algunas veces/reiteradas veces |  116 |  2.43 |    2.66 |  16.00
+Nunca                          | 3603 | 75.44 |   82.58 |  98.58
+solo una vez                   |   62 |  1.30 |    1.42 | 100.00
+<NA>                           |  413 |  8.65 |    <NA> |   <NA>
+"

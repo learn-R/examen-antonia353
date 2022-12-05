@@ -1,0 +1,5 @@
+"0","EnvifObj %>% #Creamos un objeto llamado EnvifObj con datos de Envif2"
+"0","  group_by(EDAD_REC, negación_dinero) %>% #Agrupamos por  grupo etario y negación del dinero"
+"0","  summarise(prop = survey_prop(vartype = ""ci"", na.rm = T), #Calculamos las proporciones con intervalos de confianza"
+"0","            total = survey_total(vartype = ""ci"", na.rm=T)) %>% #Así como el total por categoría"
+"0","  mutate(prop = prop*100)"

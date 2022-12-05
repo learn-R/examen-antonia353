@@ -1,0 +1,3 @@
+"0","EnvifObj <- Envif2 %>% #Creamos un nuevo objeto llamado EnvifObj con la información de data"
+"0","  as_survey_design(ids = SbjNum, #Aplicamos diseño muestral, especificando los ids a partir de varunit"
+"0","                   weights = pond_total)"

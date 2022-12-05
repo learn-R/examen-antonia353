@@ -1,0 +1,27 @@
+"0","Envif2 %>% "
+"0","  group_by(nacionalidad) %>% "
+"0","  frq(negación_dinero)"
+"1","[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mChilena[39m
+[34m# total N=7397 valid N=6479 mean=2.54 sd=0.84[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      | 1409 | 19.05 |   21.75 |  21.75
+algunas veces/reiteradas veces |  221 |  2.99 |    3.41 |  25.16
+Nunca                          | 4758 | 64.32 |   73.44 |  98.60
+solo una vez                   |   91 |  1.23 |    1.40 | 100.00
+<NA>                           |  918 | 12.41 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mExtranjera[39m
+[34m# total N=297 valid N=275 mean=2.66 sd=0.75[39m
+
+Value                          |   N | Raw % | Valid % | Cum. %
+---------------------------------------------------------------
+No aplica                      |  43 | 14.48 |   15.64 |  15.64
+algunas veces/reiteradas veces |  12 |  4.04 |    4.36 |  20.00
+Nunca                          | 216 | 72.73 |   78.55 |  98.55
+solo una vez                   |   4 |  1.35 |    1.45 | 100.00
+<NA>                           |  22 |  7.41 |    <NA> |   <NA>
+"

@@ -1,0 +1,51 @@
+"0","Envif2 %>% "
+"0","  group_by(EDAD_REC) %>% "
+"0","  frq(negación_dinero)"
+"1","[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mAdolescencia[39m
+[34m# total N=283 valid N=155 mean=1.70 sd=0.96[39m
+
+Value                          |   N | Raw % | Valid % | Cum. %
+---------------------------------------------------------------
+No aplica                      | 100 | 35.34 |   64.52 |  64.52
+algunas veces/reiteradas veces |   2 |  0.71 |    1.29 |  65.81
+Nunca                          |  52 | 18.37 |   33.55 |  99.35
+solo una vez                   |   1 |  0.35 |    0.65 | 100.00
+<NA>                           | 128 | 45.23 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mAdulta[39m
+[34m# total N=2716 valid N=2507 mean=2.67 sd=0.74[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |  386 | 14.21 |   15.40 |  15.40
+algunas veces/reiteradas veces |   89 |  3.28 |    3.55 |  18.95
+Nunca                          | 2001 | 73.67 |   79.82 |  98.76
+solo una vez                   |   31 |  1.14 |    1.24 | 100.00
+<NA>                           |  209 |  7.70 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mAdulta Mayor[39m
+[34m# total N=2706 valid N=2273 mean=2.47 sd=0.89[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |  578 | 21.36 |   25.43 |  25.43
+algunas veces/reiteradas veces |   91 |  3.36 |    4.00 |  29.43
+Nunca                          | 1572 | 58.09 |   69.16 |  98.59
+solo una vez                   |   32 |  1.18 |    1.41 | 100.00
+<NA>                           |  433 | 16.00 |    <NA> |   <NA>
+
+[31mnegación_dinero[39m[34m <character>[39m 
+[34m# grouped by: [39m[36mJuventud[39m
+[34m# total N=2030 valid N=1857 mean=2.57 sd=0.84[39m
+
+Value                          |    N | Raw % | Valid % | Cum. %
+----------------------------------------------------------------
+No aplica                      |  393 | 19.36 |   21.16 |  21.16
+algunas veces/reiteradas veces |   51 |  2.51 |    2.75 |  23.91
+Nunca                          | 1380 | 67.98 |   74.31 |  98.22
+solo una vez                   |   33 |  1.63 |    1.78 | 100.00
+<NA>                           |  173 |  8.52 |    <NA> |   <NA>
+"

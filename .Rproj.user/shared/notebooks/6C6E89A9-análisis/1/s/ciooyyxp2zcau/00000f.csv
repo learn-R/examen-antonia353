@@ -1,0 +1,3 @@
+"0","EnvifObj %>%"
+"0","  group_by(reg_rec) %>% #Agrupamos por región"
+"0","  summarise(prop = survey_prop(na.rm = T)) #Y calculamos las proporciones"
