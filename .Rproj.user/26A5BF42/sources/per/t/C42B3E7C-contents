@@ -1,0 +1,61 @@
+#Examen Final. 
+
+#Carga de paquetes.
+pacman::p_load(dplyr, #Seleccionar  variables dentro de un set 
+               tidyverse, #Universo de paquetes
+               magrittr, #Para utilizar el operador pipe
+               srvyr, #Para trabajar con muestras complejas
+               survey,#para estimar los modelos con peso muestral
+               sjPlot,#Para visualizar los datos
+               haven,#Para cargar base de datos 
+               sjmisc) 
+install.packages("car")
+
+#Carga de Datos. 
+
+Data<- read_sav("input/Data/Final ENVIF 2020.sav")
+
+
+#Exploración de la base de datos
+view(Data) #ver base completa 
+names(Data) #nombres variables 
+head(Data) #primeras filas de la base de datos
+
+
+frq(Data$p2) #Nacionalidad
+frq(Data$edad) #edad
+frq(Data$p3) #Estado civil actual
+frq(Data$p15) #Relación con el (la) principal sostenedor (a) del hogar
+frq(Data$p7) #Nivel educacional
+frq(Data$p58) #Ingresos propios
+frq(Data$p61) #disponibilidad para gastos propios. 
+frq(Data$p65_2)# frecuencia con la que se comunica con personas que considera familia
+frq(Data$p148_1) #negado el dinero para gastos del hogar, aun cuando hay para otras cosas. 
+frq(Data$reg_rec) #región
+frq(Data$edad) #edad 
+
+#aparte de las variables anteriores ocuparemos el ponderador total 
+
+#Selección de variables. 
+
+Envif1<- select(Data, nacionalidad = p2, estado_civil = p3,sostenedorH = p15, 
+                nivel_educacional = p7, ingreso_propio = p58,dinero_gastosP = p61,
+                comunicación_familia = p65_2, pide_ayuda = p66, negación_dinero = p148_1, 
+                reg_rec, pond_total, edad)
+
+#recodificación variables 
+Envif2<- Envif1 %>% 
+  mutate(region = case_when(reg_rec %in% c (8,10,14,6,7,16,8)~ "Zona sur",
+                            reg_rec %in% c(15,1,2,3,4,5)~ "Zona norte",
+                            reg_rec %in% c (13)~ "Zona Central",
+                            reg_rec %in% c(11,12)~ "Zona Austral", 
+                            TRUE ~ NA_character_),) %>%
+  mutate(edad = case_when(15<=18 ~ "Adolescencia", 
+                          19<=29 ~ "Juventud", 
+                          30<=59~ "adultez",
+                          60>= ~ "adulta mayor",
+                          TRUE ~ NA_character_),) %>%
+  
+  
+  
+  

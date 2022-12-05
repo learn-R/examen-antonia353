@@ -1,0 +1,14 @@
+#Examen Final. 
+
+#Carga de paquetes.
+pacman::p_load(dplyr, #Seleccionar  variables dentro de un set 
+               tidyverse, #Universo de paquetes
+               magrittr, #Para utilizar el operador pipe
+               srvyr, #Para trabajar con muestras complejas
+               survey,#para estimar los modelos con peso muestral
+               sjPlot,#Para visualizar los datos
+               haven) #Para cargar base de datos 
+
+#Carga de Datos. 
+
+Data<- read_sav("input/Data/Final ENVIF 2020.sav")
