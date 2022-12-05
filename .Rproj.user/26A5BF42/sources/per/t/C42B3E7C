@@ -3,7 +3,7 @@
     "path": "~/Intro a R/00-tarea-antonia353/examen-antonia353/R/Datos_proc.R",
     "project_path": "R/Datos_proc.R",
     "type": "r_source",
-    "hash": "2927262930",
+    "hash": "4049662688",
     "contents": "",
     "dirty": false,
     "created": 1670111640985.0,
@@ -16,11 +16,11 @@
         "scrollLine": "42"
     },
     "folds": "",
-    "lastKnownWriteTime": 1670128514,
+    "lastKnownWriteTime": 1670208718,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1670128514242,
+    "last_content_update": 1670208718,
     "read_only": false,
     "read_only_alternatives": []
 }
