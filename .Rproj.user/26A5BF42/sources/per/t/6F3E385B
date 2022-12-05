@@ -3,9 +3,9 @@
     "path": "~/Intro a R/00-tarea-antonia353/examen-antonia353/R/análisis.Rmd",
     "project_path": "R/análisis.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "2868561458",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1670208866987.0,
     "source_on_save": false,
     "relative_order": 2,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1670209801,
+    "lastKnownWriteTime": 1670210486,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1670210000367,
+    "last_content_update": 1670210486147,
     "read_only": false,
     "read_only_alternatives": []
 }

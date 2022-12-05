@@ -1,5 +1,6 @@
 ---
-title: "Análisis"
+title: "Análisis de la violencia contra la mujer en el ambito domestico económico"
+subtitulo: "Examen final"
 author: "Antonia Letelier & Nicolás Fuentes"
 date: "2022-12-05"
 output: html_document
