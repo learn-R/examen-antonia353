@@ -1,0 +1,54 @@
+---
+title: "Análisis de la violencia domestica y económica contra la mujer"
+subtitle: "Examen Final"
+author: "Antonia Letelier"
+Profesora: "Valentina Andrade"
+Ayudante: "Dafne Jaime"
+date: 05-12-2022
+output: 
+html_document:
+  theme: "readable"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Abstrac
+La violencia contra la mujer ha escalado con creces estos ultimos años, antes se creia que la violencia era solo fisica, al dia de hoy sabemos que hay violencia fisica, psicologíca y monetaria, la mujer es objeto de todas ellas, por lo mismo se ha evidenciado la necesidad de crear encuestas para tener documentado los números de agresiones en diferentes situaciones que pasan las mujeres dia a dia. La ENVIF-VCM (Encuesta de Violencia Intrafamiliar – Violencia contra la Mujer) es la responsable de es proceso en Chile. 
+
+
+
+
+## 2. Introducción
+
+La encuesta ENVIF-VCM nos expone diferentes variables, en el caso de este Análisis usaremos las relacionadas a la violencia económica, analizaremos los casos de chilenas y de extranjeras habitantes en  todo chile, en tramos de edad desde los 15 a los 95 años. 
+
+
+### 3. Análisis.
+#3.1 carga de paquetes
+
+```{r cargadepaquetes}
+pacman::p_load(dplyr, 
+               tidyverse, 
+               magrittr, 
+               srvyr, 
+               survey,
+               sjPlot,
+               haven,
+               sjmisc,
+               car,
+               texreg)
+
+               
+```
+
+##Carga de Datos
+
+
+```{r cargadedatos, echo=FALSE}
+datos_proc <- readRDS("../output/Data/datos_proc.rds")
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
